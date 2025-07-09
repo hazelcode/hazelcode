@@ -5,7 +5,6 @@
 Here are some ideas to get you started:
 
 # hazelcode
-![avatar](https://avatars.githubusercontent.com/u/84425557?v=4)
 ## Sobre mí
 
 ¡Hola!, Me presento.
