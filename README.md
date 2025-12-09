@@ -7,7 +7,7 @@ Me llamo Hazel, y actualmente tengo 18 años.
 
 Soy un programador apasionado en C# (lenguaje favorito) y el ecosistema .NET.
 
-Tambien me gusta mucho C++, JavaScript, TypeScript y los videojuegos (en especial crear datapacks para Minecraft).
+Tambien me gusta mucho C++, JavaScript, TypeScript y aprender a hacer videojuegos
        
 Mi área favorita de informática es: la programación.
 
