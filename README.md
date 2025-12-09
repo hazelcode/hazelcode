@@ -15,10 +15,10 @@ Color favorito: Azul.
 
 Nacionalidad: Mexicano.
 
-Diagnóstico: Síndrome de Asperger (TEA nvl. 1).
-
 Bebida favorita: Café (como cualquier programador).
 
 ¡Visita mi [página](https://hazelcode.github.io/hazelcode/)!
 
 [¡Mándame un correo!](mailto:rojasparias@gmail.com)
+
+[¡Únete a mi Discord!](https://discord.gg/7WNF2fqVUM)

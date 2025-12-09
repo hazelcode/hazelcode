@@ -70,3 +70,122 @@ img.avatar:active {
     width: 110px;
     height: 110px;
 }
+
+/* Estilos adicionales para acentos azules y sección de contacto/proyectos */
+#contact-projects {
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-left: 5px solid #2d8bdd;
+    padding: 18px;
+    margin: 18px 0;
+    border-radius: 12px;
+    color: #d6f0ff;
+    box-shadow: 0 8px 24px rgba(45,139,221,0.08);
+}
+
+#contact-projects h2 {
+    color: #bfe7ff;
+    margin-top: 0;
+}
+
+#contact-projects a {
+    color: #aee0ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact-projects a:hover {
+    text-decoration: underline;
+    color: #e6f7ff;
+}
+
+/* Botón estilo para LinkedIn u otros enlaces */
+.btn-blue {
+    display: inline-block;
+    background: linear-gradient(90deg, #2d8bdd, #1e6fb5);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(18,111,181,0.12);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.btn-blue:active {
+    transform: translateY(1px);
+}
+
+/* Estilos para Stack de Tecnologías */
+#tech-stack {
+    background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));
+    border-left: 5px solid #1e90ff;
+    padding: 16px;
+    margin: 18px 0;
+    border-radius: 12px;
+    color: #dff6ff;
+}
+
+#tech-stack h2 {
+    color: #cfeeff;
+    margin-top: 0;
+}
+
+.stack-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 8px 0 0 0;
+}
+
+.stack-list li {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.03);
+    padding: 6px 10px;
+    border-radius: 999px;
+    color: #bfeaff;
+    font-weight: 600;
+}
+
+/* Ajustes para centrar horizontalmente y chips con hover */
+.tech-list, .lang-list {
+    justify-content: center;
+}
+
+.tech-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    margin: 6px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 12px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.tech-chip svg {
+    flex: 0 0 28px;
+    height: 28px;
+}
+
+.tech-chip span {
+    color: #dff6ff;
+    font-weight: 600;
+}
+
+.tech-chip:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(45,139,221,0.12);
+    background: linear-gradient(180deg, rgba(45,139,221,0.06), rgba(255,255,255,0.01));
+}
+
+/* Ajustes responsivos */
+@media (max-width: 560px) {
+    .stack-list {
+        flex-wrap: wrap;
+    }
+    .tech-chip {
+        width: auto;
+        justify-content: center;
+    }
+}
